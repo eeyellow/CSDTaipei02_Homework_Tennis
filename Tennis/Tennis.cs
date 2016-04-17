@@ -24,7 +24,21 @@ namespace VIVALACODE
             }
             else
             {
-                return point[i] + " " + point[j];
+                if (i >= 4)
+                {
+                    if (i - j >= 2)
+                    {
+                        return "A Win";
+                    }
+                    else
+                    {
+                        return "";
+                    }
+                }
+                else
+                {
+                    return point[i] + " " + point[j];
+                }
             }
         }
     }
