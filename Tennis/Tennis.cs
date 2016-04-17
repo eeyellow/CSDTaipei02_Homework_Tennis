@@ -9,7 +9,14 @@ namespace VIVALACODE
     {
         public static string say(int i, int j)
         {
-            return "Love All";
+            if (i == 0)
+            {
+                return "Love All";
+            }
+            else
+            {
+                return "Fifteen All";
+            }
         }
     }
 }
