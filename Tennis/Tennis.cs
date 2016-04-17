@@ -24,7 +24,7 @@ namespace VIVALACODE
             }
             else
             {
-                return "Fifteen Love";
+                return point[i] + " " + point[j];
             }
         }
     }
