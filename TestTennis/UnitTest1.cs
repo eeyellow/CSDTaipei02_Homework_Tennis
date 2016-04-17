@@ -49,5 +49,11 @@ namespace VIVALACODE
         {
             Assert.AreEqual("Thirty All", Tennis.say(2, 2));
         }
+
+        [TestMethod]
+        public void TestMethod4()
+        {
+            Assert.AreEqual("Forty All", Tennis.say(3, 3));
+        }
     }
 }
