@@ -32,7 +32,7 @@ namespace VIVALACODE
                     }
                     else
                     {
-                        return "";
+                        return "A Adventage";
                     }
                 }
                 else
