@@ -73,5 +73,17 @@ namespace VIVALACODE
         {
             Assert.AreEqual("Fifteen Love", Tennis.say(1, 0));
         }
+
+        [TestMethod]
+        public void TestMethod8()
+        {
+            Assert.AreEqual("Thirty Love", Tennis.say(2, 0));
+        }
+
+        [TestMethod]
+        public void TestMethod9()
+        {
+            Assert.AreEqual("Forty Love", Tennis.say(3, 0));
+        }
     }
 }
