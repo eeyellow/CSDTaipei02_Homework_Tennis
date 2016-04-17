@@ -9,14 +9,9 @@ namespace VIVALACODE
     {
         public static string say(int i, int j)
         {
-            if (i == 0)
-            {
-                return "Love All";
-            }
-            else
-            {
-                return "Fifteen All";
-            }
+            string[] point = { "Love", "Fifteen", "Thirty", "Forty" };
+
+            return point[i] + " " + "All";
         }
     }
 }
