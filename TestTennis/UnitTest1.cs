@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace TestTennis
+namespace VIVALACODE
 {
     /// <summary>
     /// 0:0 --> Love All
@@ -35,6 +35,7 @@ namespace TestTennis
         [TestMethod]
         public void TestMethod1()
         {
+            Assert.AreEqual("Love All", Tennis.say(0, 0));
         }
     }
 }
