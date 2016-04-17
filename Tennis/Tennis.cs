@@ -11,13 +11,20 @@ namespace VIVALACODE
         {
             string[] point = { "Love", "Fifteen", "Thirty", "Forty" };
 
-            if (i >= 3)
+            if (i == j)
             {
-                return "Deuce";
+                if (i >= 3)
+                {
+                    return "Deuce";
+                }
+                else
+                {
+                    return point[i] + " " + "All";
+                }
             }
             else
             {
-                return point[i] + " " + "All";
+                return "";
             }
         }
     }
