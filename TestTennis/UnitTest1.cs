@@ -53,7 +53,7 @@ namespace VIVALACODE
         [TestMethod]
         public void TestMethod4()
         {
-            Assert.AreEqual("Forty All", Tennis.say(3, 3));
+            Assert.AreEqual("Deuce", Tennis.say(3, 3));
         }
     }
 }
