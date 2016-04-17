@@ -85,5 +85,29 @@ namespace VIVALACODE
         {
             Assert.AreEqual("Forty Love", Tennis.say(3, 0));
         }
+
+        [TestMethod]
+        public void TestMethod10()
+        {
+            Assert.AreEqual("A Win", Tennis.say(4, 0));
+        }
+
+        [TestMethod]
+        public void TestMethod11()
+        {
+            Assert.AreEqual("A Win", Tennis.say(4, 1));
+        }
+
+        [TestMethod]
+        public void TestMethod12()
+        {
+            Assert.AreEqual("A Win", Tennis.say(4, 2));
+        }
+
+        [TestMethod]
+        public void TestMethod13()
+        {
+            Assert.AreEqual("A Win", Tennis.say(5, 3));
+        }
     }
 }
