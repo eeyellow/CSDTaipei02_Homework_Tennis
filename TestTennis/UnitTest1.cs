@@ -119,7 +119,7 @@ namespace VIVALACODE
         [TestMethod]
         public void TestMethod15()
         {
-            Assert.AreEqual("A Adventage", Tennis.say(5, 5));
+            Assert.AreEqual("A Adventage", Tennis.say(5, 4));
         }
     }
 }
